@@ -1,3 +1,5 @@
+color: #7451EA;
+
 * {
 	margin: 0;
 	padding: 0;
@@ -13,4 +15,86 @@ html, body {
 
 .logo {
 	width: 300px;
+}
+
+.nav-item {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	height: 48px;
+	text-align: left;
+	line-height: 25px;
+	margin: 15px;
+	color: #000;
+}
+
+.nav-link:hover {
+	color: #7451EA;
+}
+
+.fa-search {
+	color: #000;
+	font-size: 26px;
+	
+}
+
+.fa-search:hover {
+	color: #7451EA;
+}
+	
+.btn-nav {
+	font-size: 14;
+	line-height: 24px;
+	font-weight: 700;
+	width: 94px;
+	height: 42px;
+	border: 1px solid #7451EA;
+	margin: 0 16px 0 0;
+	padding: 8px 16px 8px 16px;
+	background-color: #7451EA;
+	color: #fff;
+}
+
+.btn-nav:hover {
+	box-shadow: rgba(0,0,0,0.1) 0 6px 6px;
+	color: #fff;
+}
+
+.btn-nav:nth-last-child(1) {
+	color: #000;
+	background-color: #fff;
+	box-shadow: none;
+}
+
+.banner {
+	width: 468px;
+	height: 390px;
+	max-height: 100%;
+	display: block;
+	float: right;
+}
+
+.header-container {
+	background-color: #7451EA;
+}
+
+.header-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header-text h1 {
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #333;
+}
+
+.header-container p {
+	line-height: 28px;
+	color: #fff;
+	display: inline;
+
 }
