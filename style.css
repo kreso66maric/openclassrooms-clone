@@ -14,7 +14,7 @@ html, body {
 /*Navigation Bar*/
 
 .logo {
-	width: 300px;
+	width: 260px;
 }
 
 .nav-item {
@@ -85,16 +85,64 @@ html, body {
 }
 
 .header-text h1 {
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	margin-top: 25px;
+	padding-left: 15px;
+	width: 300px;
 	font-size: 40px;
 	line-height: 50px;
 	font-weight: 700;
 	color: #fff;
-	background-color: #333;
+	background-color: #003669;
 }
 
 .header-container p {
-	line-height: 28px;
+	width: 400px;
+	margin-top: 10px;
+	height: auto;
+	word-spacing: 0;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 26px;
 	color: #fff;
-	display: inline;
+	display: inline-block;
 
+}
+
+.header-btn {
+	display: block;
+	width: 110px;
+	height: 42px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 0;
+	background-color: #fff;
+	border-radius: 4px;
+	color: #7451EA;
+}
+
+.header-btn:hover {
+	box-shadow: rgba(0,0,0,0.2) 0 10px 10px;
+}
+
+.section-one {
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+
+}
+
+.section-one h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #003669;
+}
+
+.section-one p {
+	font-family: 'Montserrat', sans-serif;
 }
