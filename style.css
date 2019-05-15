@@ -146,3 +146,32 @@ html, body {
 .section-one p {
 	font-family: 'Montserrat', sans-serif;
 }
+
+.section-two {
+	background-color: #F2F2F2;
+}
+
+.section-two h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	padding: 5px;
+	background-color: #7451EA;
+	color: #fff;
+	font-size: 34px;
+	display: block;
+	width: 568px;
+	margin: 70px auto 30px auto;
+}
+
+.section-two p {
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	height: 130px;
+	width: 568px;
+	margin: 0 auto 0 auto;
+}
+
+iframe {
+	margin: 70px auto 40px 40px;
+}
+
