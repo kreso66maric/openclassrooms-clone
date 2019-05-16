@@ -171,8 +171,21 @@ html, body {
 	margin: 0 auto 0 auto;
 }
 
+.section-two a {
+	color: #000;
+	text-decoration: underline;
+}
+
+.section-two a:hover {
+	text-decoration: none;
+}
+
 iframe {
 	margin: 70px auto 40px 40px;
+}
+
+.section-three {
+	margin-bottom: 80px;
 }
 
 .section-three h3 {
@@ -201,4 +214,42 @@ iframe {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: #003668;
+}
+
+.fa-circle {
+	margin: 30px 10px;
+	font-size: 14px;
+}
+
+.section-four {
+	height: 164px;
+	background-color: #003669;
+}
+
+.section-four h3 {
+	margin: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.btn-section-four {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	height: 42px;
+	width: 139px;
+	display: block;
+	margin: 30px auto 20px auto;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.btn-section-four:hover {
+	background-color: #3E668C;
 }
